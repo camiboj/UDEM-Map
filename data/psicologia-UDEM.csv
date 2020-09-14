@@ -1,0 +1,24 @@
+codigo,materia,creditos,correlativas,categoria,nivel
+H0200,Psicología General I,0,,Materias Obligatorias,1
+H0002,Bases Biológicas y Neurológicas del Comp,0,,Materias Obligatorias,1
+H0003,Historia de la Psicología,0,,Materias Obligatorias,1
+H0202,Epistemología y lógica,0,,Materias Obligatorias,1
+H0203,Filosofía,0,,Materias Obligatorias,1
+H0009,Fundamentos de Sociología,0,,Materias Obligatorias,1
+H0201,Psicología General II,0,H0200,Materias Obligatorias,1
+H0012,Neuropsicología,0,H0002,Materias Obligatorias,1
+H0004,Teorías Psicológicas Contemporáneas,0,H0003,Materias Obligatorias,1
+H0204,Metodologia de las Ciencias,0,H0202,Materias Obligatorias,1
+H0205,Antropología,0,,Materias Obligatorias,1
+H0013,Psicología de la Personalidad,0,H0200,Materias Obligatorias,1
+H0254,Inglés I,0,,Materias Obligatorias,1
+H0228,Psicoanálisis I,0,H0201,Materias Obligatorias,2
+H0206,Psicología del Desarrollo I,0,H0201,Materias Obligatorias,2
+H0208,Cultura y Subjetividad,0,H0203,Materias Obligatorias,2
+H0209,Lenguaje y Comunicación,0,H0201,Materias Obligatorias,2
+H0010,Psicología Social,0,H0009,Materias Obligatorias,2
+H0229,Psicopatología I,0,H0201,Materias Obligatorias,2
+H0207,Psicología del Desarrollo II,0,H0206,Materias Obligatorias,2
+H0020,Dinamica de Grupos,0,H0009,Materias Obligatorias,2
+H0015,Evaluación y Técnicas Psicológicas I,0,H0201-H0206,Materias Obligatorias,2
+H0255,Inglés II,0,H0223,Materias Obligatorias,2
