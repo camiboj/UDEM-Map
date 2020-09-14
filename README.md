@@ -2,7 +2,7 @@
 Mapa de materias y sus correlativas de psicología UDEM. 
 La idea es tomar como base el increíble proyecto de Fede dM y cargar el plan de psicología de UDEMM.
 
-# [FIUBA Map](https://fdelmazo.github.io/FIUBA-Map/)
+# [FIUBA Map](https://camiboj.github.io/UDEMM-Map/)
 
 Mapa de materias y sus correlativas de la Facultad de Ingeniería
 

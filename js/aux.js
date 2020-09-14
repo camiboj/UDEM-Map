@@ -120,7 +120,7 @@ function notificationSnackbar(clave) {
     let html = `
         <div id="notification">
             <p class="close-button" onclick="$(this.parentElement.parentElement).empty();"><i class="fas fa-fw fa-times"></i></p> 
-            <p><strong>Datos guardados!</strong> Ya podés entrar a <a href=https://fdelmazo.github.io/FIUBA-Map/?clave=` + clave + `>https://fdelmazo.github.io/FIUBA-Map/?clave=` + clave + `</a> y ver tu progreso.</p>
+            <p><strong>Datos guardados!</strong> Ya podés entrar a <a href=https://camiboj.github.io/UDEMM-Map/?clave=` + clave + `>https://camiboj.github.io/UDEMM-Map/?clave=` + clave + `</a> y ver tu progreso.</p>
         </div>
     `;
     $('#footer-snackbar-center').html($(html));    
@@ -132,7 +132,7 @@ function warningSnackbar(clave){
             <p class="close-button" onclick="$(this.parentElement.parentElement).empty();"><i class="fas fa-fw fa-times"></i></p> 
             <p><strong>Padrón no registrado!</strong> Seleccioná tu carrera, marca las materias que aprobaste y toca el boton de guardar.
             <br>
-            Una vez guardado, podés entrar a <a href=https://camiboj.github.io/UDEMM-Map/?clave=` + clave + `>https://fdelmazo.github.io/FIUBA-Map/?clave=` + clave + `</a> y ver tu progreso.</p>
+            Una vez guardado, podés entrar a <a href=https://camiboj.github.io/UDEMM-Map/?clave=` + clave + `>https://camiboj.github.io/UDEMM-Map/?clave=` + clave + `</a> y ver tu progreso.</p>
         </div>
     `;
     $('#footer-snackbar-center').html($(html));
@@ -141,7 +141,7 @@ function warningSnackbar(clave){
 function defaultFooterSnackbar() {
     let html = `
     <div>
-        <a target="_blank" href="https://github.com/fdelmazo/FIUBA-Map"><i class="fab fa-fw fa-github"></i></a> 
+        <a target="_blank" href="https://github.com/camiboj/UDEMM-Map"><i class="fab fa-fw fa-github"></i></a> 
         <a><i onclick="$('#mail-content').toggle()" class="fas fa-fw fa-envelope"></i><span id="mail-content"> fdelmazo at fi.uba.ar</span></a> 
     </div>
     `;
