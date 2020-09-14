@@ -1,49 +1,59 @@
 codigo,materia,creditos,correlativas,categoria,nivel
-H0200,Psicología General I,0,,Materias Obligatorias,1
-H0002,Bases Biológicas y Neurológicas del Comp,0,,Materias Obligatorias,1
-H0003,Historia de la Psicología,0,,Materias Obligatorias,1
-H0202,Epistemología y lógica,0,,Materias Obligatorias,1
-H0203,Filosofía,0,,Materias Obligatorias,1
-H0009,Fundamentos de Sociología,0,,Materias Obligatorias,1
-H0201,Psicología General II,0,H0200,Materias Obligatorias,2
-H0012,Neuropsicología,0,H0002,Materias Obligatorias,2
-H0004,Teorías Psicológicas Contemporáneas,0,H0003,Materias Obligatorias,2
-H0204,Metodologia de las Ciencias,0,H0202,Materias Obligatorias,2
-H0205,Antropología,0,,Materias Obligatorias,2
-H0013,Psicología de la Personalidad,0,H0200,Materias Obligatorias,2
-H0254,Inglés I,0,,Materias Obligatorias,2
-H0228,Psicoanálisis I,0,H0201,Materias Obligatorias,3
-H0206,Psicología del Desarrollo I,0,H0201,Materias Obligatorias,3
-H0208,Cultura y Subjetividad,0,H0203,Materias Obligatorias,3
-H0209,Lenguaje y Comunicación,0,H0201,Materias Obligatorias,3
-H0010,Psicología Social,0,H0009,Materias Obligatorias,3
-H0229,Psicopatología I,0,H0201,Materias Obligatorias,4
-H0207,Psicología del Desarrollo II,0,H0206,Materias Obligatorias,4
-H0020,Dinamica de Grupos,0,H0009,Materias Obligatorias,4
-H0015,Evaluación y Técnicas Psicológicas I,0,H0201-H0206,Materias Obligatorias,4
-H0255,Inglés II,0,H0223,Materias Obligatorias,4
-H0230,Psicoanálisis II,0,H0228-H0209,Materias Obligatorias,5
-H0018,Evaluación y Téncnicas Psicológicas II,0,H0015-H0228,Materias Obligatorias,5
-H0231,Psicopatología II,0,H0229,Materias Obligatorias,5
-H0014,Técnicas de Abordaje e Intervención en Crisis,0,H0229,Materias Obligatorias,5
-H0023,Psicología Organizacional,0,H0020,Materias Obligatorias,5
-H0025,Observación y Práctica Profesional I,0,H0200-H0002-H0003-H0202-H0203-H0009-H0201-H0012-H0004-H0204-H0205-H0013-H0254-H0228-H0206-H0208-H0209-H0010-H0229-H0207-H0020-H0015-H0255,Materias Obligatorias,5
-E0003,Materia Electiva(*),0,H0200-H0002-H0003-H0202-H0203-H0009-H0201-H0012-H0004-H0204-H0205-H0013-H0254-H0228-H0206-H0208-H0209-H0010-H0229-H0207-H0020-H0015-H0255,Materias Obligatorias,6
-H0021,Psicosociología Educacional,0,H0009,Materias Obligatorias,6
-H0022,Psicología Jurídica,0,H0009-H0205,Materias Obligatorias,6
-H0210,Ética y Deodontología Profesional,0,H0203-H0208,Materias Obligatorias,6
-H0028,Trabajo en Instituciones,0,H0200-H0002-H0003-H0202-H0203-H0009-H0201-H0012-H0004-H0204-H0205-H0013-H0254-H0228-H0206-H0208-H0209-H0010-H0229-H0207-H0020-H0015-H0255,Materias Obligatorias,6
-H0019,Evaluación y Técnicas Psicológicas III,0,H0018,Materias Obligatorias,6
-H0211,Métodos y Técnicas Psicoterapéuticas I,0,H0231,Materias Obligatorias,7
-H0029,Psicología Clínica de niños y adolescentes,0,H0206-H0231,Materias Obligatorias,7
-H0033,Orientación Vocacional y Ocupacional,0,H0018,Materias Obligatorias,7
-H0213,Psicología Preventiva y Salud Comunitaria I,0,H0231,Materias Obligatorias,7
-H0212,Métodos y técnicas Psicoterapéuticas II,0,H0211,Materias Obligatorias,7
-H0030,Psicología Clínica de Adultos,0,H0029,Materias Obligatorias,8
-H0232,Práctica Profesional Supervisada I,0,H0230-H0018-H0231-H0014-H0023-H0025-H0021-H0022-H0210-H0028-H0019-E0003,Materias Obligatorias,8
-H0032,OPP II,0,H0025,Materias Obligatorias,8
-H0035,Psicoterapia Familiar,0,H0231-H0020,Materias Obligatorias,8
-H0104,Computación,0,,Materias Obligatorias,8
-E0005,Materia Electiva(*),0,H0230-H0018-H0231-H0014-H0023-H0025-H0021-H0022-H0210-H0028-H0019-E0003,Materias Obligatorias,9
-H0233,Práctica Profesional Supervisada II,0,H0232,Materias Obligatorias,9
-H0257,Trabajo Integrador Final,0,H0211-H0029-H0033-H0213-H0212-H0030-H0232-H0032-H0035-H0104,Materias Obligatorias,9
+H0200,Psicología General I,1,,Materias Obligatorias,1
+H0002,Bases Biológicas y Neurológicas del Comp,1,,Materias Obligatorias,1
+H0003,Historia de la Psicología,1,,Materias Obligatorias,1
+H0202,Epistemología y lógica,1,,Materias Obligatorias,1
+H0203,Filosofía,1,,Materias Obligatorias,1
+H0009,Fundamentos de Sociología,1,,Materias Obligatorias,1
+H0201,Psicología General II,1,H0200,Materias Obligatorias,2
+H0012,Neuropsicología,1,H0002,Materias Obligatorias,2
+H0004,Teorías Psicológicas Contemporáneas,1,H0003,Materias Obligatorias,2
+H0204,Metodologia de las Ciencias,1,H0202,Materias Obligatorias,2
+H0205,Antropología,1,,Materias Obligatorias,2
+H0013,Psicología de la Personalidad,1,H0200,Materias Obligatorias,2
+H0254,Inglés I,1,,Materias Obligatorias,2
+A0001,1er año,0,H0200-H0002-H0003-H0202-H0203-H0009-H0201-H0012-H0004-H0204-H0205-H0013-H0254,Materias Obligatorias,3
+H0228,Psicoanálisis I,1,H0201,Materias Obligatorias,4
+H0206,Psicología del Desarrollo I,1,H0201,Materias Obligatorias,4
+H0208,Cultura y Subjetividad,1,H0203,Materias Obligatorias,4
+H0209,Lenguaje y Comunicación,1,H0201,Materias Obligatorias,4
+H0010,Psicología Social,1,H0009,Materias Obligatorias,4
+H0229,Psicopatología I,1,H0201,Materias Obligatorias,5
+H0207,Psicología del Desarrollo II,1,H0206,Materias Obligatorias,5
+H0020,Dinamica de Grupos,1,H0009,Materias Obligatorias,5
+H0015,Evaluación y Técnicas Psicológicas I,1,H0201-H0206,Materias Obligatorias,5
+H0255,Inglés II,1,H0223,Materias Obligatorias,5
+A0002,2do año,0,H0228-H0206-H0208-H0209-H0010-H0229-H0207-H0020-H0015-H0255,Materias Obligatorias,6
+H0230,Psicoanálisis II,1,H0228-H0209,Materias Obligatorias,7
+H0018,Evaluación y Téncnicas Psicológicas II,1,H0015-H0228,Materias Obligatorias,7
+H0231,Psicopatología II,1,H0229,Materias Obligatorias,7
+H0014,Técnicas de Abordaje e Intervención en Crisis,1,H0229,Materias Obligatorias,7
+H0023,Psicología Organizacional,1,H0020,Materias Obligatorias,7
+H0025,Observación y Práctica Profesional I,1,A0001-A0002,Materias Obligatorias,7
+E0003,Materia Electiva(*),1,A0001-A0002,Materias Obligatorias,8
+H0021,Psicosociología Educacional,1,H0009,Materias Obligatorias,8
+H0022,Psicología Jurídica,1,H0009-H0205,Materias Obligatorias,8
+H0210,Ética y Deodontología Profesional,1,H0203-H0208,Materias Obligatorias,8
+H0028,Trabajo en Instituciones,1,A0001-A0002,Materias Obligatorias,8
+H0019,Evaluación y Técnicas Psicológicas III,1,H0018,Materias Obligatorias,8
+A0003,3er año,0,H0230-H0018-H0231-H0014-H0023-H0025-H0021-H0022-H0210-H0028-H0019-E0003,Materias Obligatorias,9
+H0211,Métodos y Técnicas Psicoterapéuticas I,1,H0231,Materias Obligatorias,10
+H0029,Psicología Clínica de niños y adolescentes,1,H0206-H0231,Materias Obligatorias,10
+H0033,Orientación Vocacional y Ocupacional,1,H0018,Materias Obligatorias,10
+H0213,Psicología Preventiva y Salud Comunitaria I,1,H0231,Materias Obligatorias,10
+H0212,Métodos y técnicas Psicoterapéuticas II,1,H0211,Materias Obligatorias,10
+H0030,Psicología Clínica de Adultos,1,H0029,Materias Obligatorias,11
+H0232,Práctica Profesional Supervisada I,1,A0003,Materias Obligatorias,11
+H0032,OPP II,1,H0025,Materias Obligatorias,11
+H0035,Psicoterapia Familiar,1,H0231-H0020,Materias Obligatorias,11
+H0104,Computación,1,,Materias Obligatorias,11
+A0004,4to año,0,H0211-H0029-H0033-H0213-H0212-H0030-H0232-H0032-H0035-H0104,Materias Obligatorias,12
+E0005,Materia Electiva(*),1,A0003,Materias Obligatorias,13
+H0233,Práctica Profesional Supervisada II,1,H0232,Materias Obligatorias,13
+H0257,Trabajo Integrador Final,1,A0004,Materias Obligatorias,13
+A0005,5to año,0,E0005-H0233-H0257,Materias Obligatorias,14
+H0043,Psicopedagogía en Educación Especial I,1,E0003,Materias Electivas,15
+H0220,Investigación de Mercados,1,E0003,Materias Electivas,15
+H0053,Tratamiento Psicopedagógico,1,E0003,Materias Electivas,15
+H0222,Psicología de la tercera Edad,1,E0003,Materias Electivas,15
+H0218,Comunicación,1,E0003,Materias Electivas,15
