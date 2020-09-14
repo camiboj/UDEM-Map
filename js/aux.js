@@ -132,7 +132,7 @@ function warningSnackbar(clave){
             <p class="close-button" onclick="$(this.parentElement.parentElement).empty();"><i class="fas fa-fw fa-times"></i></p> 
             <p><strong>Padrón no registrado!</strong> Seleccioná tu carrera, marca las materias que aprobaste y toca el boton de guardar.
             <br>
-            Una vez guardado, podés entrar a <a href=https://fdelmazo.github.io/FIUBA-Map/?clave=` + clave + `>https://fdelmazo.github.io/FIUBA-Map/?clave=` + clave + `</a> y ver tu progreso.</p>
+            Una vez guardado, podés entrar a <a href=https://camiboj.github.io/UDEMM-Map/?clave=` + clave + `>https://fdelmazo.github.io/FIUBA-Map/?clave=` + clave + `</a> y ver tu progreso.</p>
         </div>
     `;
     $('#footer-snackbar-center').html($(html));
