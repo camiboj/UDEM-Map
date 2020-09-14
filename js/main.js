@@ -62,5 +62,5 @@ $(document).ready(function () {
             }
         })
     else
-        $("#sistemas").click()
+        $("#psicologia").click()
 });
