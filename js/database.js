@@ -44,7 +44,7 @@ $(document).ready(function () {
     $('#clave-load').on('click', function () {
         let clave = $("#clave input").val();
         if (!clave) return;
-        window.location = "https://camiboj.github.io/UDEMM-Map/?clave=" + clave;
+        window.location = "https://camiboj.github.io/UdeMM-Map/?clave=" + clave;
     });
 
     $('#clave input').on("keyup", function (event) {
