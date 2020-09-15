@@ -1,5 +1,5 @@
-let FORMAPI = 'https://docs.google.com/forms/u/0/d/1xUf-9SWdGf0jv_weLRe4tlXb-GWHkH-kc-v_S8kKGCI';
-let SHEETAPI = "https://spreadsheets.google.com/feeds/list/1B7ytzx_-XvmaMApIb1UX3DXBCSCAAelXs_TuJ0Ww2fE/default/public/values?alt=json";
+let FORMAPI = 'https://docs.google.com/forms/d/1IFRP4ifmtypiXjf-DkUYHcn3OIJ8SyhgrIdnI7DbRyc';
+let SHEETAPI = "https://spreadsheets.google.com/feeds/list/1el8-pMpIodMIPwMLzNwJAI0hnIQ9nT01GNScb_RDMII/default/public/values?alt=json";
 
 function save(clave, carrera, materias) {
     let form = $("<form id='formRecord' type='hidden' action=" + FORMAPI + " onsubmit='return window.submitGoogleForm(this)'></form>");
@@ -44,7 +44,7 @@ $(document).ready(function () {
     $('#clave-load').on('click', function () {
         let clave = $("#clave input").val();
         if (!clave) return;
-        window.location = "https://fdelmazo.github.io/FIUBA-Map?clave=" + clave;
+        window.location = "https://camiboj.github.io/UDEMM-Map/?clave=" + clave;
     });
 
     $('#clave input').on("keyup", function (event) {
