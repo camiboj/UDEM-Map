@@ -3,9 +3,9 @@ let SHEETAPI = "https://spreadsheets.google.com/feeds/list/1el8-pMpIodMIPwMLzNwJ
 
 function save(clave, carrera, materias) {
     let form = $("<form id='formRecord' type='hidden' action=" + FORMAPI + " onsubmit='return window.submitGoogleForm(this)'></form>");
-    form.append("<input name='entry.774465991' value=" + clave + ">");
-    form.append("<input name='entry.992084860' value=" + carrera + ">");
-    form.append("<input name='entry.2026137499' value=" + materias + ">");
+    form.append("<input name='entry.2130926747' value=" + clave + ">");
+    form.append("<input name='entry.240287082' value=" + carrera + ">");
+    form.append("<input name='entry.1203898638' value=" + materias + ">");
     form.submit()
 }
 
