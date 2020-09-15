@@ -80,8 +80,8 @@ class FiubaMap {
             let m = this.materias.get(id)
             cred+=m.creditos
         })
-
-        $('#creditos-var').text(cred)
+        let porcentaje = cred / self.materias.size * 100
+        $('#creditos-var').text(porcentaje.toFixed(2) + '%')
         self.creditos = cred
     }
 
