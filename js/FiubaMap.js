@@ -81,7 +81,8 @@ class FiubaMap {
             let m = this.materias.get(id)
             cred_actuales +=m.creditos
         })
-        this.materias.forEach((m) => {
+        this.materias.forEach((m, key) => {
+            console.log(`key: ${key}`)
             console.log(`title: ${m.title}`)
             console.log(`creditos: ${m.creditos}\n`)
             cred_totales += m.creditos
