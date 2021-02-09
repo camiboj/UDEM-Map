@@ -74,15 +74,15 @@ class FiubaMap {
 
     actualizarCreditos() {
         const self = this
-        let cred = 0
+        let cred_actuales = 0
         let materias = materiasAprobadas(self.aprobadas, self.cuatri)
         materias.forEach((id) => {
             let m = this.materias.get(id)
-            cred+=m.creditos
+            cred_actuales +=m.creditos
         })
-        let porcentaje = cred / self.materias.size * 100
+        let porcentaje = cred_actuales / self.materias.size * 100
         $('#creditos-var').text(porcentaje.toFixed(2) + '%')
-        self.creditos = cred
+        self.creditos = cred_actuales
     }
 
     chequearNodosCRED() {
