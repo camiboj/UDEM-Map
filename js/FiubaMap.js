@@ -80,6 +80,9 @@ class FiubaMap {
             let m = this.materias.get(id)
             cred_actuales +=m.creditos
         })
+        this.materias.forEach((m) => {
+            console.log(m)
+        })
         let porcentaje = cred_actuales / self.materias.size * 100
         $('#creditos-var').text(porcentaje.toFixed(2) + '%')
         self.creditos = cred_actuales
