@@ -225,7 +225,7 @@ const Body = (props) => {
             {useColorModeValue(<MoonIcon />, <SunIcon />)}
           </Link>
         </Tooltip>
-        <Tooltip label="FIUBA-Plan" placement="top">
+        {/* <Tooltip label="FIUBA-Plan" placement="top">
           <Link
             isExternal
             color={useColorModeValue("text", "textdark")}
@@ -238,7 +238,7 @@ const Body = (props) => {
               />
             </Icon>
           </Link>
-        </Tooltip>
+        </Tooltip> */}
         <Tooltip label="FdelMazo/FIUBA-Map" placement="top">
           <Link
             isExternal
@@ -253,7 +253,7 @@ const Body = (props) => {
             </Icon>
           </Link>
         </Tooltip>
-        <Tooltip label="Invitame un Cafecito" placement="top">
+        <Tooltip label="Invitale un Cafecito a Fede, quien hace realmente todo el trabajo" placement="top">
           <Link
             isExternal
             color={useColorModeValue("text", "textdark")}
@@ -268,7 +268,7 @@ const Body = (props) => {
           </Link>
         </Tooltip>
         <LightMode>
-          <Box>
+          {/* <Box>
             <Tag
               mt={2}
               variant="subtle"
@@ -389,7 +389,7 @@ const Body = (props) => {
               <TagLabel>{showGracias ? "Gracias!" : "Sugerencias"}</TagLabel>
               <TagRightIcon as={showGracias ? CheckIcon : ChatIcon} />
             </Tag>
-          </Box>
+          </Box> */}
         </LightMode>
       </Box>
     </Box>
