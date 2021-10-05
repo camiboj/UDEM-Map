@@ -1,5 +1,5 @@
 let FORMAPI = 'https://docs.google.com/forms/d/1IFRP4ifmtypiXjf-DkUYHcn3OIJ8SyhgrIdnI7DbRyc';
-let SHEETAPI = "https://spreadsheets.google.com/feeds/list/1el8-pMpIodMIPwMLzNwJAI0hnIQ9nT01GNScb_RDMII/default/public/values?alt=json";
+let SHEETAPI = "https://sheets.googleapis.com/v4/spreadsheets/1el8-pMpIodMIPwMLzNwJAI0hnIQ9nT01GNScb_RDMII";
 
 function save(clave, carrera, materias) {
     let form = $("<form id='formRecord' type='hidden' action=" + FORMAPI + " onsubmit='return window.submitGoogleForm(this)'></form>");
